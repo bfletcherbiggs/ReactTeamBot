@@ -1,0 +1,42 @@
+
+/* Variables */
+$primary: #3F59FF;
+$secondary: #FD1153;
+$background2: #F9F7F5;
+$background3: #282D33;
+$vin-red: #ff0000;
+$unit: 14px;
+
+/* Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Anton', sans-serif;
+  font-size: $unit;
+  line-height: 1.4em;
+  background: $background3;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+td {
+	padding: 12px;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+	color: $primary;
+  font-size: 200%;
+}

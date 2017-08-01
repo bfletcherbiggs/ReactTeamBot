@@ -1,0 +1,11 @@
+@import '../styles/styles.scss';
+
+.header-container {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
